@@ -42,4 +42,12 @@
         android:layout_centerHorizontal="true"
         android:textColor="#FFF"/>
 
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_below="@+id/splash1"
+        android:layout_centerHorizontal="true"/>
+
 </RelativeLayout>

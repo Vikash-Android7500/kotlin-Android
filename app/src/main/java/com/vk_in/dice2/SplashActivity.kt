@@ -31,7 +31,7 @@ class SplashActivity : AppCompatActivity() {
         }
 
         val splashAnimation = android.view.animation.AnimationUtils.loadAnimation(this, R.anim.anim_splash)
-        splashBinding.splash1.animation = splashAnimation
+        splashBinding.icon.animation = splashAnimation
 
         splashAnimation.setAnimationListener(object: Animation.AnimationListener{
             override fun onAnimationStart(animation: Animation?) {
