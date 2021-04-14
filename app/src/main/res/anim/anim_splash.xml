@@ -3,18 +3,14 @@
     android:fillAfter="true">
 
     <translate
+        android:fromXDelta="100%"
+        android:fromYDelta="0%"
         android:duration="2000"
-        android:fromXDelta="0%p"
-        android:fromYDelta="0%p"
-        android:interpolator="@android:anim/anticipate_interpolator"
-        android:toXDelta="20%p"
-        android:toYDelta="0%p"
         />
     <alpha
-        android:duration="2000"
-        android:fromAlpha="0.0"
-        android:interpolator="@android:anim/anticipate_interpolator"
+        android:fromAlpha="0.1"
         android:toAlpha="1.0"
+        android:duration="2000"
         />
 
 </set>
