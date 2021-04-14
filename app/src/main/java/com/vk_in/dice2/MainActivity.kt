@@ -2,6 +2,7 @@ package com.vk_in.dice2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.vk_in.dice2.databinding.ActivityMainBinding
 import java.text.NumberFormat
 
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         val cost = stringInTextField.toDoubleOrNull()
         if (cost == null) {
             binding.result.text = ""
+            Toast.makeText(this, "Result",  Toast.LENGTH_SHORT).show()
             return
         }
 
